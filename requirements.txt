@@ -1,0 +1,20 @@
+# 数据过滤软件依赖
+#
+# 核心功能主要使用 Python 标准库。
+#
+# 若要使用"标签格式转换"中的 TXT <-> XML、YOLO <-> COCO 等功能，
+# 需要安装以下第三方库：
+#   pip install pillow pycocotools
+#
+# 若要使用"数据集展示"功能，需要安装数据可视化库：
+#   pip install matplotlib numpy seaborn
+#
+# 若要打包为exe文件，需要安装PyInstaller：
+#   pip install pyinstaller
+
+pillow>=10.0.0
+pycocotools>=2.0.7
+matplotlib>=3.5.0
+numpy>=1.21.0
+seaborn>=0.11.0
+pyinstaller>=5.0.0
